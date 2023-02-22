@@ -1,0 +1,87 @@
+{% extends 'baseTemplate.html' %}
+{% block body %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="assets/styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+        <title>
+            Планета земля!
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <div class="main-picture">
+            <div> 
+                <h1>Прага</h1>
+                <span>Красивейший город Европы!</span>
+            </div>
+        </div>
+
+        <div class="offer-text">
+            <span>Предложение дня</span>
+        </div>
+
+        <div class="offer-img">
+            <div class="border-img">
+                <img src="./img/bolg.jpg">
+                <div class="text-img">
+                    <span>Болгария - красота Софии!</span>
+                </div>
+                <form>
+                    <button class="c-button">
+                        Подробнее
+                    </button>
+                </form>
+            </div>
+            <div class="border-img">
+                <img src="./img/italy.jpg" >
+                <div class="text-img">
+                    <span>Италия - посетите Венецию!</span>
+                </div>
+                <form>
+                    <button class="c-button">
+                        Подробнее
+                    </button>
+                </form>
+            </div>
+            <div class="border-img">
+                <img src="./img/greece.jpg" >
+                <div class="text-img">
+                    <span>Греция - познакомтесь с Богами!</span> 
+                </div>
+                <form>
+                    <button class="c-button">
+                        Подробнее
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="about-us-picture">
+            <div>
+                <span>Туристическая компания «Планета Земля!»</span>
+                <span>Мы стремимся воплотить в жизнь вашу мечту об идеальном отпуске или деловой поездке.</span> 
+                <span>Услуги, которые сегодня доступны нашим клиентам:</span>
+                <div class="about-menu">
+                    <ul class="about-menu__list">
+                        <li>Экскурсионные туры</li>
+                        <li>Отдых в жарких странах</li>
+                        <li>Бронирование отелей в Беларуси и других странах</li>
+                        <li>Организация деловых поездок</li>
+                        <li>EVENT-туры</li>
+                        <li>Горные лыжи</li>
+                        <li>Отдых, совмещенный с оздоровлением</li>
+                        <li>Индивидуальные туры</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+{% endblock body %}

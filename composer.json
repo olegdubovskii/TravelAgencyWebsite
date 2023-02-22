@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "^4.10",
+        "twig/twig": "^3.3",
+        "slim/psr7": "^1.5"
+    },
+    "autoload": {
+        "psr-4":{
+          "Tourism\\": "src/"
+        }
+    }
+}

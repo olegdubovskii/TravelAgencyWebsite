@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href="assets/styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+        <title>
+            Планета земля!
+        </title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <header>
+        <div class="up-hat">
+        </div>
+        
+        <div class="hat">
+            <a href="/">
+                <div class="logo"> 
+                    <img src="img/glob.png" width="130px" height="130x">
+                    <span>Планета земля!</span>
+                </div>
+            </a>
+
+            <div class="search-panel">
+                <input placeholder="Поиск по сайту...">
+            </div>
+        </div>
+
+        <div class="up-menu">
+            <ul class="up-menu__list">
+                <li><a href="/tours.html">Туры</a></li>
+                <li>Направления</li>
+                <li>Бронирование отелей</li>
+                <li>Бизнес-туризм</li>
+                <li><a href = "/sin.html">Вход</a></li>
+            </ul>
+        </div>
+        </header>
+
+        {% block body %}
+        {% endblock body %}
+
+        <footer>
+            <div class="footer-line">
+                <div class="footer-logo"> 
+                    <img src="img/glob.png" width="130px" height="130x">
+                    <span>Планета земля!</span>
+                </div>
+                
+                <div class="footer-text">
+                    <p>Some adventurers are always looking for a new challenge. Meagan McGrath from Canada has climbed mountains, ridden a bike across Canada and run races in the desert. But her most incredible journey was a skiing trip to the South Pole.</p>
+                </div>    
+                <div class="links">
+                    <img src="img/vk-brands.svg" width="60px" height="60px">
+                    <img src="img/telegram-brands.svg" width="60px" height="60px">
+                    <img src="img/facebook-square-brands.svg" width="60px" height="60px">
+                    <img src="img/instagram-square-brands.svg" width="60px" height="60px">
+                </div>
+            </div>
+        </footer>
+        
+</body>
+</html>

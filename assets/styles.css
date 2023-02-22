@@ -1,0 +1,380 @@
+body {
+    margin: 0 auto;
+    font-size: 30px;
+    background-color: white;
+}
+
+.up-hat {
+    width: 100%;
+    height: 32px;
+    background-color: #00447b;
+}
+
+.hat {
+    padding: 10px 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hat a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    max-width: 160px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.logo > img{
+    margin-right: 10px;
+}
+
+.search-panel > input{
+    height: 20px;
+    font-size: 15px;
+}
+
+.up-menu {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 22px;
+    font-weight: 700;
+    border-top: 2px solid black;
+    padding: 10px 0;
+}
+
+.up-menu__list{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    width: 650px;
+    justify-content: space-between;
+}
+
+.up-menu__list > li {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.up-menu__list > li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.up-menu__list a:hover, .up-menu__list li:hover {
+    color: royalblue;
+}
+
+.main-picture {
+    padding: 10px;
+    height: 550px;
+    background-image: url("/img/prague.jpg");
+    background-position: center;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
+    position: relative;
+    color: aliceblue;
+}
+
+h1{
+    margin: 0;
+    font-size: 100px;
+}
+
+
+.main-picture > div {
+    position: absolute;
+    top: 20px;
+    left: 450px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.main-picture > div > span:last-child{
+    font-size: 50px;
+}
+
+
+.offer-text {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 700;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-img {
+    padding-top: 70px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1900px;
+}
+
+.border-img {
+    width: 550px;
+    height: 500px;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: 4px;
+    margin: auto;
+}
+
+.border-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-img {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 20px;
+}
+
+.c-button {
+    display: block;
+    width:200px;
+    height:70px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(100, 219, 193);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 22px;
+}
+
+.c-button:hover {
+    background: #09a5b9;
+}
+
+.about-us-picture {
+    top: 50px;
+    padding: 10px;
+    height: 550px;
+    background-image: url("/img/vvoda.jpg");
+    background-position: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    color: aliceblue;
+}
+
+.about-us-picture > div > span {
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.about-us-picture > div > span:nth-child(2){
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-us-picture > div {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-menu__list {
+    list-style: "> ";
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.footer-line{
+    padding: 10px 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    margin-top: 100px;
+    border-top: 2px solid black;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    max-width: 160px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+}
+
+.footer-logo > img{
+    margin-right: 10px;
+}
+
+.links{
+    cursor: pointer;
+    
+}
+
+.links img {
+    transition: 0.5s;
+    margin-right: 15px;
+}
+
+.links img:hover {
+    transform: scale(1.4);
+}
+
+.footer-text{
+    width: 900px;
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    text-align:center;
+    margin-left:100px;
+}
+
+.tours-catalog {
+    text-align: center;
+}
+
+.tours-catalog > h1 {
+    border-top: 2px solid black;
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.tours-img {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    max-width: 1200px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.tours-border-img:hover {
+    box-shadow: 1px 1px 10px gray;
+}
+
+.tours-border-img {
+    width: calc(100% / 4 - 10px);
+    height: 350px;
+    box-sizing: border-box;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0 10px 15px 0;
+    position: relative;
+}
+
+.tours-border-img:nth-child(4n) {
+    margin-right: 0;
+}
+
+.tours-border-img img{
+    width: 100%;
+    height: 170px;
+    
+}
+
+.tours-text-img {
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tours-c-button {
+    display: block;
+    width:170px;
+    height:50px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(100, 219, 193);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+.tours-c-button:hover {
+    background: #09a5b9;
+}
+
+.tours-border-img form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+
+.def-tour-img {
+    border-top: 2px solid black;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.def-tour-img > img {
+    width: 1100px;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.container-text {
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.container-text p {
+    font-family: 'Franklin Gothic';
+    font-size: 25px;
+}
+
+.def-tour-img > h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+.description {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+}
+
+.description > img {
+    width: 30px;
+    height: 30px;
+}
+
+.block3 {
+    border-color: black;
+    font-family: 'Franklin Gothic';
+    width: 100%;
+    height: 250px;
+}
+
+.aligncenter {              
+    text-align: center;
+}
+
+input[type="submit" i] {
+    display: block;
+    width:140px;
+    height:40px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(100, 219, 193);
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 20px;
+}
